@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+<title>Homework 2</title>
+</head>
+<body>
+<h1>
+<p>Hello HTML</p>
+<p>Paragraph 2</p>
+</h1>
+<h2>
+<p>This text is in a paragraph in a heading smaller than the previous</p>
+<b><p><b>This text is in a paragraph in a heading smaller than the previous</b></p></b>
+</h2>
+</body>

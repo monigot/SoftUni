@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<title>Homework 6</title>
+</head>
+<body bgcolor="blue">
+<h1>Doge Social Network</h1>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="friends.html">Friends</a></li>
+</ul>
+<hr>
+<h2>Profle of Doge</h2>
+<hr>
+<img src="doge.jpeg" alt="Doge profile photo" height="200" width="200" border="1">
+<div>
+<p><b>Name</b>:Doge</p>
+<p><b>Birthday</b>:Top secret</p>
+<p><b>Occupation</b>:Celebrity</p>
+<p><b>Area of occupation</b>:Web</p>
+</div>
+</body>

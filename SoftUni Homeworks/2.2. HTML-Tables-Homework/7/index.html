@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 7</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+	<table>
+		<tr>
+			<td colspan="4"><form><textarea id="calc-area" rows="1"></textarea></form></td>
+		</tr>
+		<tr>
+			<td>
+				<form><button type="button" onclick="addDigit(1)">1</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit(2)">2</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit(3)">3</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit('+')">+</button></form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form><button type="button" onclick="addDigit(4)">4</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit(5)">5</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit(6)">6</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit('-')">-</button></form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form><button type="button" onclick="addDigit(7)">7</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit(8)">8</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit(9)">9</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit('*')">*</button></form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form><button type="button" onclick="reset()">C</button></form>
+			</td>
+			<td>
+				<form><button type="button"  onclick="addDigit('0')">0</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="calculate()">=</button></form>
+			</td>
+			<td>
+				<form><button type="button" onclick="addDigit('/')">/</button></form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

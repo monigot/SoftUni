@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+			<h1>Flight Order</h1>
+			<div id="city">
+				<form name="from-city">
+					<p>From</p>
+					<select name="city" id="city">
+						<option selected="selected" disabled="disabled">enter a city</option>
+						<option value="Sofia">Sofia</option>
+						<option value="Budapest">Budapest</option>
+						<option value="New York">New York</option>
+						<option value="Philadelphia">Philadelphia</option>
+					</select>
+				</form>
+				<form name="to-city">
+					<p>To</p>
+					<select name="city" id="city">
+						<option selected="selected" disabled="disabled">enter a city</option>
+						<option value="Sofia">Sofia</option>
+						<option value="Budapest">Budapest</option>
+						<option value="New York">New York</option>
+						<option value="Philadelphia">Philadelphia</option>
+					</select>
+					<input id="pref-dir" type="checkbox">
+					<label for="pref-dir">Prefer directs</label>
+				</form>
+			</div>
+			<div id="departure">
+				<form name="date">
+					<p>Departure Date</p>
+					<input type="text" value="09.06.2014">
+				</form>
+				<form name="time">
+					<p>Time Interval</p>
+					<div id="time">
+						<input type="text" value="00:20">
+						<input type="text" value="05:00">
+					</div>
+				</form>
+			</div>
+			<div id="return">
+				<form name="date">
+					<p>Departure Date</p>
+					<input type="text" value="13.06.2014">
+				</form>
+				<form name="time">
+					<p>Time Interval</p>
+					<div id="time">
+						<input type="text" value="16:00">
+						<input type="text" value="22:00">
+					</div>
+				</form>
+			</div>
+			<div id="class">
+				<form name="years">
+					<div id="y12+">
+						<p>12+</p>
+						<input type="number" value="0">
+					</div>
+					<div id="y2-12">
+						<p>2-12</p>
+						<input type="number" value="0">
+					</div>
+					<div id="y0-2">
+						<p>0-2</p>
+						<input type="number" value="0">
+					</div>
+				</form>
+				<form name="class">
+					<p>Choose class</p>
+					<select name="class">
+						<option selected="selected">Economy</option>
+						<option>Premium Economy</option>
+						<option>Business</option>
+						<option>First</option>
+					</select>
+				</form>
+			</div>
+			<div id="search">
+				<form></form>
+				<form name="search">
+					<input type="submit" value="Search">
+				</form>
+			</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 5</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="options">
+			<textarea rows="1">0</textarea>
+			<div id="numbers">
+				<table id="table-numbers">
+					<tr>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+					</tr>
+					<tr>
+						<td class="align-left">63</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="align-left">47</td>
+						<td></td>
+						<td></td>
+						<td class="align-right">32</td>
+					</tr>
+					<tr>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+						<td>0000</td>
+					</tr>
+					<tr>
+						<td class="align-left">31</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td class="align-left">15</td>
+						<td></td>
+						<td></td>
+						<td class="align-right">0</td>
+					</tr>
+				</table>
+			</div>
+			<div id="div-mode">
+				<div class="radio">
+					<div>
+						<input id="hex" type="radio" name="mode">
+						<label for="hex">Hex</label>
+					</div>
+					<div>
+						<input id="dec" type="radio" name="mode">
+						<label for="dec">Dec</label>
+					</div>
+					<div>
+						<input id="oct" type="radio" name="mode">
+						<label for="oct">Oct</label>
+					</div>
+					<div>
+						<input id="bin" type="radio" name="mode">
+						<label for="bin">Bin</label>
+					</div>
+				</div>
+				<div class="radio">
+					<div>
+						<input id="qword" type="radio" name="mode">
+						<label for="qword">Qword</label>
+					</div>
+					<div>
+						<input id="dword" type="radio" name="mode">
+						<label for="dword">Dword</label>
+					</div>
+					<div>
+						<input id="word" type="radio" name="mode">
+						<label for="word">Word</label>
+					</div>
+					<div>
+						<input id="byte" type="radio" name="mode">
+						<label for="byte">Byte</label>
+					</div>
+				</div>
+			</div>
+			<table id="table-calculator">
+				<tr>
+					<td class="disabled"></td>
+					<td class="enabled small-text">Mod</td>
+					<td class="disabled big-text">A</td>
+					<td class="disabled small-text">MC</td>
+					<td class="disabled small-text">MR</td>
+					<td class="disabled small-text">MS</td>
+					<td class="disabled small-text">M+</td>
+					<td class="disabled small-text">M-</td>
+				</tr>
+				<tr>
+					<td class="enabled small-text">(</td>
+					<td class="enabled small-text">)</td>
+					<td class="disabled big-text">B</td>
+					<td id="backspace" class="enabled biggest-text">&larr;</td>
+					<td class="enabled small-text">CE</td>
+					<td class="enabled small-text">C</td>
+					<td class="enabled small-text">&#177;</td>
+					<td class="disabled small-text">√</td>
+				</tr>
+				<tr>
+					<td class="enabled small-text">RoL</td>
+					<td class="enabled small-text">RoR</td>
+					<td class="disabled big-text">C</td>
+					<td class="white big-text">7</td>
+					<td class="white big-text">8</td>
+					<td class="white big-text">9</td>
+					<td class="enabled big-text">/</td>
+					<td class="disabled big-text">%</td>
+				</tr>
+				<tr>
+					<td class="enabled small-text">Or</td>
+					<td class="enabled small-text">Xor</td>
+					<td class="disabled big-text">D</td>
+					<td class="white big-text">4</td>
+					<td class="white big-text">5</td>
+					<td class="white big-text">6</td>
+					<td class="enabled big-text">*</td>
+					<td class="disabled small-text">1/x</td>
+				</tr>
+				<tr>
+					<td class="enabled small-text">Lsh</td>
+					<td class="enabled small-text">Rsh</td>
+					<td class="disabled big-text">E</td>
+					<td class="white big-text">1</td>
+					<td class="white big-text">2</td>
+					<td class="white big-text">3</td>
+					<td class="enabled big-text">-</td>
+					<td class="enabled biggest-text" rowspan="2">=</td>
+				</tr>
+				<tr>
+					<td class="enabled small-text">Not</td>
+					<td class="enabled small-text">And</td>
+					<td class="disabled big-text">F</td>
+					<td class="white big-text" colspan="2">0</td>
+					<td class="disabled big-text">.</td>
+					<td class="enabled big-text">+</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body{
+	background: url(colorful_dots_on_black.jpg);
+	margin: 0px;
+}
+
+
+body>header{
+	margin-bottom: 30px;
+	text-align: center;
+	color: yellow;
+	font-size: 4em;
+	font-weight: bold;
+ 	background-image: linear-gradient(90deg, red 33%, green 33%, green 66%, blue 66%);
+}
+section header{
+	font-size: 2em;
+	padding: 10px;
+	border-radius: 5px;
+}
+section footer a{
+	font-style: italic;
+}
+a:visited{
+	color:gray;
+}
+section div:first-of-type:first-letter{
+	font-size: 5em;
+}
+section div::first-line{
+	font-style: italic;
+}
+#webColors, #RGBA, #\#lorem, #\#HSLHSV{
+	color:white;
+}
+#webColors{
+	background: red;
+}
+#webSafeColors{
+	background: orange;
+}
+#RGB{
+	background: yellow;
+}
+#RGBA{
+	background: green;
+}
+#\#HSLHSV{
+	background: blue;
+}
+#\#lorem{
+	background: purple;
+}
+#\#lorem + span{
+	color: blue;
+}
+#\#lorem + span:before{
+	content: open-quote;
+}
+#\#lorem + span:after{
+	content: close-quote;
+}
+
+
+aside{
+	float: left;
+}
+aside header{
+	text-decoration: underline;
+	font-weight: bold;
+}
+aside a{
+	text-decoration: none;
+	color:black;
+}
+aside ul{
+	padding: 0px;
+	list-style-image: url(tick.png);
+	list-style-position: inside;
+}
+aside ul li{
+	padding: 5px;
+}
+aside li:before:hover{
+	background: red;
+}
+aside li:hover{
+	border-radius: 5px;}
+aside li:nth-child(1):hover{
+	background: red;
+}
+aside li:nth-child(2):hover{
+	background: orange;
+}
+aside li:nth-child(3):hover{
+	background: yellow;
+}
+aside li:nth-child(4):hover{
+	background: green;
+}
+aside li:nth-child(5):hover{
+	background: blue;
+}
+aside li:nth-child(6):hover{
+	background: purple;
+}
+
+
+section{
+	margin-top: 30px;
+	margin-left: 210px; 
+}
+article, aside{
+	background: rgba(255, 255, 255, 0.9);
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	padding: 15px;
+	border-radius: 20px;
+}

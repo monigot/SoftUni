@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework 3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Magic Car Gallery</h1>
+	</header>
+	<aside>
+		<img src="../ford-mustang.jpg" width="464px" height="298px" id="pic" onclick="changeImage();">
+	</aside>
+	<main>
+		<ul>
+			<li><a href="#" id="ford" onclick="changeImage(this)">Ford Mustang</a></li>
+			<li><a href="#" id="bmw" onclick="changeImage(this)">BMW M5</a></li>
+			<li><a href="#" id="porsche" onclick="changeImage(this)">Porsche Panamera</a></li>
+			<li><a href="#" id="audi" onclick="changeImage(this)">Audi RS5</a></li>
+			<li><a href="#" id="mercedes" onclick="changeImage(this)">Mercedes Benz</a></li>
+		</ul>
+	</main>
+	<script type="text/javascript">
+	function changeImage(element){
+		var image = document.getElementById("pic");
+		if (element.id == "ford") {
+			image.src = "../ford-mustang.jpg";
+		};
+
+		if (element.id == "bmw") {
+			image.src = "../bmw-m5.jpg";
+		};
+
+		if (element.id == "porsche") {
+			image.src = "../porsche-panamera.jpg";
+		};
+
+		if (element.id == "audi") {
+			image.src = "../audi-rs5.jpg";
+		};
+
+		if (element.id == "mercedes") {
+			image.src = "../mercedes-benz.jpg";
+		};
+	}
+    </script>
+</body>
+</html>

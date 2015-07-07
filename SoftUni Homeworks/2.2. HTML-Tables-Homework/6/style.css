@@ -1,0 +1,32 @@
+body{
+	font-family: sans-serif;
+}
+button, form{
+	color: blue;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+body>table{
+	height: 600px;
+}
+body>table tr td{
+	width: 100px;
+}
+table table{
+	width: 100%;
+	height: 100%;
+}
+#button-header{
+	font-size: 1.7em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0;
+}
+#beer{
+	font-size: 1.2em;
+	text-align: right;
+}
+table tr{
+	height: 20%;
+}

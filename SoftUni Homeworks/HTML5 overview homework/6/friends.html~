@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<title>Homework 6</title>
+</head>
+<body bgcolor="skyblue">
+<h1>Doge Social Network</h1>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="friends.html">Friends</a></li>
+</ul>
+<hr>
+<h2>Friends of Doge</h2>
+<hr>
+<dl>
+<dt><i>Such Friend</i></dt>
+<dl>best friend</dl>
+<dt><i>Many Friends</i></dt>
+<dl>unknown</dl>
+<dt><i>Wow</i></dl>
+<dl>yeah, right</dl>
+</dl>
+</body>

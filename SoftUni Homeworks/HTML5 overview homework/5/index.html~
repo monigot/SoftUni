@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<title>Homework 5</title>
+</head>
+<body background=white>
+<h1>Headings and Paragraphs</h1>
+<ul>
+<li>
+	<p>Heading Tags:<span class="bold"> &lt;h1&gt; </span>-<span class="bold">&lt;h6&gt</span>;</p>
+	<div>
+	<p>&lt;h1&gt;Heading 1&lt;/h1&gt;</p>
+	<p>&lt;h2&gt;Sub heading 2&lt;/h2&gt;</p>
+	<p>&lt;h3&gt;Sub heading 3&lt;/h3&gt;</p>
+	</div>
+</li>
+<li>
+	<p>Paragraph Tags:<span class="bold">&lt;p&gt;</span></p>
+	<div>
+	<p>&lt;p&gt;This is my first paragraph&lt;/p&gt;</p>
+	<p>&lt;p&gt;This is my second paragraph&lt;/p&gt;</p>
+	</div>
+</li>
+<li>
+	<p>Sections:<span class="bold">&lt;div&gt;</span> and <span class="bold">&lt;span&gt;</span></p>
+	<div>
+	<p>&lt;div style="background: skyblue;"&gt;</p>
+	<p id="tab">	This is a div</p>
+	<p>&lt;/div&gt;</p>
+	</div>
+</li>
+</ul>
+</body>

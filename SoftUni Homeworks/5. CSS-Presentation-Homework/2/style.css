@@ -1,0 +1,47 @@
+@font-face{
+	font-family: "Animater";
+	src: url(resources/Animated.ttf);
+}
+body{
+	font-family: Animater, sans-serif;
+}
+#wrapper{
+	display: inline-block;
+	width: 900px;
+	height: 600px;
+	background: url("resources/HawaiiBackground.png"),
+		radial-gradient(at 20% 20%, rgba(255, 255, 0, 0.3), rgba(0, 95, 219, 1) 50%);
+}
+#wrapper>p{
+	margin: 15px;
+	text-align: right;
+	color: orange;
+	font-size: 3em;
+}
+img{
+	position: absolute;
+}
+#vlado-g{
+	top: 230px;
+	left: 50px;
+}
+#petia{
+	top: 200px;
+	left: 190px;
+}
+#tedi{
+	top: 370px;
+	left: 270px;
+}
+#nakov{
+	top: 170px;
+	left: 420px;
+}
+#alex{
+	top: 210px;
+	left: 500px;
+}
+#vlado-k{
+	top: 230px;
+	left: 680px;
+}

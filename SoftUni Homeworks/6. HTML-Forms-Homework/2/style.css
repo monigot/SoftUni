@@ -1,0 +1,53 @@
+body{
+	font-family: sans-serif;
+}
+#wrapper{
+	background: pink;
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+}
+h1{
+	text-align: center;
+	margin: 0;
+	font-size: 3em;
+}
+select{
+	background: white;
+	width: 100%;
+	font-size: 1.2em;
+}
+form{
+	//display: inline-block;
+	margin: 5px;
+	width: 50%;
+}
+p, label, h1{
+	margin: 0;
+	font-style: italic;
+}
+#city, #departure, #return, #class, #search{
+	display: flex;
+}
+#departure input, #return input{
+	width: 100%;
+	font-size: 1.2em;
+}
+#time, form[name="years"]{
+	display: flex;
+}
+input[value="00:20"], input[value="16:00"]{
+	margin-right: 5px;
+}
+input[type="number"]{
+	width: 100%;
+	font-size: 1.2em;
+}
+#y2-12{
+	margin: 0 5px;
+}
+input[type="submit"]{
+	width: 100%;
+	font-size: 1.2em;
+	padding: 8px 0;
+}

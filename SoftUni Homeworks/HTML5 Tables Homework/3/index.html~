@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homework 1</title>
+</head>
+<body>
+<table border="1px" style="font-size: 2em;">
+<tr>
+	<td><img src="SoftUni-logo.png" width="100px" height="80px"></td>
+	<td>
+		<table border="1px">
+			<tr>
+				<td>Software</td>
+			</tr>
+			<tr>
+				<td>University</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+</table>
+</body>
+</html>

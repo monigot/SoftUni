@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework 3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<form>
+			<h3>Step 1: Your details</h1>
+			<div class="box">
+				<label class="name" for="first and last name">Name</label>
+				<input type="text" placeholder="First and last name" name="first and last name">
+			</div>
+			<div class="box">
+				<label class="name" for="email">Email</label>
+				<input type="email" placeholder="example@domain.com" name="email">
+			</div>
+			<div class="box">
+				<label class="name" for="phone">Phone</label>
+				<input type="tel" placeholder="eg. +447500000000" name="phone">
+			</div>
+		</form>
+		<form>
+			<h3>Step 1: Delivery address</h1>
+			<div class="box">
+				<label id="address" class="name" for="address">Address</label>
+				<textarea rows="5" name="address"></textarea>
+			</div>
+			<div class="box">
+				<label class="name" for="post code">Post code</label>
+				<input type="text" name="post code">
+			</div>
+			<div class="box">
+				<label class="name" for="country">Country</label>
+				<input type="text" name="country">
+			</div>
+		</form>
+		<form>
+			<h3>Step 1: Card details</h1>
+			<div class="box">
+				<label class="name" id="card-type">Card type</label>
+				<input id="visa" type="radio" name="card" value="visa">
+				<label for="visa">
+					<img src="resources/visa.png" height="16">
+					<p>VISA</p>
+				</label>
+				<input id="amex" type="radio" name="card" value="amex">
+				<label for="amex">
+					<img src="resources/amex.png" height="16">
+					<p>AmEx</p>
+				</label>
+				<input id="mastercard" type="radio" name="card" value="mastercard">
+				<label for="mastercard">
+					<img src="resources/mastercard.png" height="16">
+					<p>MasterCard</p>
+				</label>
+			</div>
+			<div class="box">
+				<label class="name" for="card number">Card number</label>
+				<input type="tel" name="card number">
+			</div>
+			<div class="box">
+				<label class="name" for="security code">Security code</label>
+				<input type="tel" name="security code">
+			</div>
+			<div class="box">
+				<label class="name" for="name on card">Name on card</label>
+				<input type="text" placeholder="exact name as on the card" name="name on card">
+			</div>
+			<div id="submit-div">
+				<input type="submit" value="BUY IT!">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

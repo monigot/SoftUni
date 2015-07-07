@@ -1,0 +1,119 @@
+body{
+	font-family: sans-serif;
+}
+#wrapper{
+	display: inline-block;
+	padding: 30px 8px 8px 8px;
+	background:
+		url(win-calc-wrapper-top.jpg),
+		url(win-calc-wrapper-left.jpg),
+		url(win-calc-wrapper-right.jpg),
+		url(win-calc-wrapper-bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: left top, left 30px, right 30px, left bottom;
+	background-size: 
+		451px 30px,
+		8px 382px,
+		8px 382px,
+		451px 8px;
+}
+#options{
+	background: #D8E4F0;
+	padding: 10px;
+	padding-top: 30px;
+	background: url(win-calc-options-top.jpg), #D8E4F0;
+	background-repeat: no-repeat;
+	background-size: 455px;
+}
+#div-mode{
+	display: inline-block;
+	float: left;
+}
+table, td{
+	overflow: hidden;
+	white-space: nowrap;
+}
+.radio{
+	padding-top: 5px;
+	height: 87px;
+	margin: 5px 0;
+	width: 80px;
+	border: 1px solid #B5C1CD;
+	border-radius: 3px;
+}
+textarea{
+	width: 404px;
+	font-size: 2em;
+	resize: none;
+	padding-top: 1.5em;
+	text-align: right;
+}
+#table-calculator{
+	width: 320px;
+	table-layout: fixed;
+	border-spacing: 5px;
+}
+#table-calculator td{
+	overflow: hidden;
+	margin: 2px;
+	border-radius: 3px;
+	text-align: center;
+	width: 32px;
+	height: 24px;
+	border-width: 1px;
+}
+#table-calculator td.disabled{
+	border: 1px solid #B5C1CD;
+	background: #D8E4F0;
+}
+#table-calculator td.enabled{
+	border: 1px solid #939EA8;
+	background: linear-gradient(#EAEDF5, #D6E1F8);
+}
+#table-calculator td.white{
+	border: 1px solid #939DA8;
+	background: linear-gradient(#F8F9FB, #F0F8FB);
+}
+.small-text{
+	font-size: 0.6em;
+	line-height: 20px;
+}
+.big-text{
+	font-size: 1em;
+	line-height: 20px;
+}
+.biggest-text{
+	font-size: 1em;
+	line-height: 20px;
+}
+#numbers{
+	padding: 2px 0;
+	width: 408px;	
+	border: 1px solid #B5C1CD;
+	border-radius: 3px;
+}
+#table-numbers{
+	position: relative;
+	left: -21px;
+	border-spacing: 26px 0;
+	width: 400px;
+	font-size: 0.7em;
+}
+#table-numbers td{
+	width: 18px;
+	height: 10px;
+	//border: 1px solid black;
+}
+.align-left{
+	text-align: left;
+	color: gray;
+}
+.align-right{
+	text-align: right;
+	color: gray;
+}
+#table-calculator td:hover{
+	background: white;
+	border: 1px solid white;
+	cursor: pointer;
+}

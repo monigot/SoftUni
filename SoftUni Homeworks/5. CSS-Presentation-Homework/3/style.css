@@ -1,0 +1,57 @@
+#wrapper{
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	background: url("resources/formBackground.jpg");
+}
+.box{
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 2px 0;
+	padding-right: 40px;
+}
+h3{
+	margin: 10px 0;
+	color: white;
+
+}
+p{
+	margin: 0;
+	display: inline-block;
+}
+img{
+	position: relative;
+	top: 2px;
+}
+#card-type{
+	display: block;
+	margin-bottom: 10px;
+}
+#visa{
+	margin-left: 15px;
+}
+.name{
+	display: inline-block;
+	width: 120px;
+}
+textarea{
+	width: 169px;
+	padding: 0;
+}
+#address{
+	vertical-align: top;
+}
+input[type="submit"]{
+	background: black;
+	color: white;
+	border: 0;
+	border-radius: 30px;
+	text-align: center;
+	padding: 10px 30px;
+	margin-top: 10px;
+}
+#submit-div{
+	text-align: center;
+}

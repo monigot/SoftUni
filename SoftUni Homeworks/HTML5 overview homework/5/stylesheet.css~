@@ -1,0 +1,28 @@
+body{
+background-image: url("Background.png");
+color: white;
+font-size: 20px;
+font-family: Arial;
+}
+h1{
+color: #E6B800;
+}
+ul{
+list-style: square url("sqorange.gif");
+}
+ul li div{
+border: solid 1px white;
+background: rgba(77, 77, 77, 0.8);
+color: #FFFFCC;
+}
+ul li div p{
+margin: 0;
+}
+span{
+color: #E6B800;
+font-size: 22px;
+font-weight: bold;
+}
+#tab{
+text-indent: 40px;
+}
