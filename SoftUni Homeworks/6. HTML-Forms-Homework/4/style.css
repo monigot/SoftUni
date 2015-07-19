@@ -101,6 +101,7 @@ input[type="submit"]{
 	line-height: 1.6em;
 	border: 0;
 	padding: 5px;
+	height: 20px;
 }
 #important select{
 	background: white;
@@ -108,4 +109,6 @@ input[type="submit"]{
 	padding: 5px;
 	line-height: 1.6em;
 	color: gray;
+	padding: 10px;
+	height: 20px;
 }

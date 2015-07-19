@@ -1,0 +1,42 @@
+@font-face{
+	font-family: "pamela-outline";
+	src: url("../Lab-Skeleton/css/fonts/Pamela wants to Ride.ttf");
+}
+@font-face{
+	font-family: "pamela-inline";
+	src: url("../Lab-Skeleton/css/fonts/Pamela want a Bike to Ride.ttf");
+}
+body{
+	background: #CCC;
+}
+#wrapper{
+	width: 960px;
+	margin: 10px auto;
+	background: #DDD;
+}
+#header-logo{
+	padding: 10px;
+	display: inline-block;
+}
+header>nav{
+	display: inline-block;
+	position: relative;
+	left: 50px;
+}
+header>nav>ul{
+	list-style-type: none;
+	margin: 0;
+}
+header>nav>ul>li{
+	display: inline-block;
+	margin: 10px 40px 10px 0;
+}
+header>nav>ul>li>a{
+	font-family: "pamela-outline";
+	text-decoration: none;
+	color: red;
+	font-size: 2em;
+}
+header>nav>ul>li>a:hover{
+	font-family: "pamela-inline";
+}
